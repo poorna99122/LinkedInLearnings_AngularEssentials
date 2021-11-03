@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MediaItemComponent } from './media-item/media-item.component';
 
 //App Module
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MediaItemComponent
   ],
   imports: [
     BrowserModule,
